@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="sensors">
+		<item>Accelerometer</item>
+		<item>Gyroscope</item>
+		<item>Magnetometer</item>
+		<item>GPS</item>
+		<item>Light sensor</item>
+		<item>Orientation sensor</item>
+		<item>Proximity sensor</item>
+		<item>Temperature</item>
+	</string-array>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="@drawable/gradient_black" android:padding="5dip">
+
+	<TextView android:id="@+id/title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true" android:text="@string/blank_holder"
+		android:textSize="12dip" android:padding="2dip" android:textStyle="bold"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field2unit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_toLeftOf="@+id/field2unit" android:text="@string/blank_holder"
+		android:textSize="10dip" android:paddingTop="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field2label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_toLeftOf="@+id/field2" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field1unit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_toLeftOf="@+id/field2label" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_toLeftOf="@+id/field1unit" android:text="@string/blank_holder"
+		android:textSize="10dip" android:paddingTop="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field1label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_toLeftOf="@+id/field1" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field4unit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_below="@+id/field2unit" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field4" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/field2unit"
+		android:layout_toLeftOf="@+id/field4unit" android:text="@string/blank_holder"
+		android:textSize="10dip" android:paddingTop="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field4label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/field2unit"
+		android:layout_toLeftOf="@+id/field4" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field3unit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/field2unit"
+		android:layout_toLeftOf="@+id/field4label" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/field2unit"
+		android:layout_toLeftOf="@+id/field3unit" android:text="@string/blank_holder"
+		android:textSize="10dip" android:paddingTop="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/field3label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/field2unit"
+		android:layout_toLeftOf="@+id/field3" android:text="@string/blank_holder"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+
+	<TextView android:id="@+id/status" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:layout_below="@+id/field4unit" android:text="@string/inactive"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/power" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_alignTop="@+id/status" android:text="@string/power"
+		android:textSize="10dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+
+</RelativeLayout>

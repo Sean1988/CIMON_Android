@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, NDroidManager!</string>
+    <string name="app_name">CIMON Monitor</string>
+    <string name="ticker_text">CIMON service active</string>
+    <string name="notification_title">CIMON administrator</string>
+    <string name="notification_message">CIMON monitoring service is active</string>
+    <string name="report_text">CIMON monitoring report complete</string>
+    <string name="report_title">CIMON report complete</string>
+    <string name="report_message">Monitor report ready to send: </string>
+    <string name="blank_holder">_</string>
+    <string name="no_data">No data available</string>
+    <string name="inactive">inactive</string>
+    <string name="power">Power: </string>
+    <string name="period">Period</string>
+    <string name="frequency">Frequency</string>
+    <string name="duration">Duration</string>
+    <string name="onesecond">1 s</string>
+    <string name="tenmillis">0.01</string>
+    <string name="hundredsec">100</string>
+    <string name="units_ma">mA</string>
+    <string name="units_ms2">m/s²</string>
+    <string name="units_ms_2">		m/s<sup><small>2</small></sup></string>
+    <string name="units_rads">rad/s</string>
+    <string name="units_radians">rad</string>
+    <string name="units_ut">µT</string>
+    <string name="units_degrees">°</string>
+    <string name="units_meters">m</string>
+    <string name="units_lux">lux</string>
+    <string name="units_cm">cm</string>
+    <string name="units_celcius">°C</string>
+    <string name="units_hpa">hPa</string>
+    <string name="units_percent">%</string>
+    <string name="units_volts">V</string>
+    <string name="units_gb">GB</string>
+    <string name="units_mb">MB</string>
+    <string name="units_kb">kB</string>
+    <string name="units_byte">byte</string>
+    <string name="units_bytes">bytes</string>
+    <string name="units_ms">ms</string>
+    <string name="units_hz">Hz</string>
+    <string name="units_seconds">s</string>
+
+    <string-array name="duration_units">
+        <item>ms</item>
+        <item>s</item>
+        <item>min</item>
+        <item>hrs</item>
+    </string-array>
+    <string-array name="duration_units_long">
+        <item>milliseconds</item>
+        <item>seconds</item>
+        <item>minutes</item>
+        <item>hours</item>
+    </string-array>
+
+    <string name="title_activity_ll">LL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_technitian_interface">TechnitianInterface</string>
+    <string name="title_activity_physician_interface">PhysicianInterface</string>
+
+</resources>

@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.startingproject.TechnitianInterface"
+    tools:ignore="MergeRootFrame" 
+    android:background="@android:color/black" >
+
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Technician Page!\n"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+    <Switch
+        android:id="@+id/switchWiFi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Wi-Fi" 
+        android:gravity="right"/>
+
+    <Switch
+        android:id="@+id/switchBluetooth"
+       android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth" 
+         android:gravity="right"/>
+
+    <Switch
+        android:id="@+id/switchPhone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Phone Call" 
+         android:gravity="right"/>
+
+    <Switch
+        android:id="@+id/switchSMS"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+         android:gravity="right" />
+
+    <Switch
+        android:id="@+id/switchMMS"
+         android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="MMS"
+         android:gravity="right" />
+
+    <Switch
+        android:id="@+id/switchBrowsing"
+       android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Browsing History" 
+         android:gravity="right"/>
+
+    <Switch
+        android:id="@+id/switchImage"
+       android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Camera-Image"
+         android:gravity="right" />
+
+    <Switch
+        android:id="@+id/switchVedio"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Camera-Vedio"
+         android:gravity="right" />
+
+    <Switch
+        android:id="@+id/switchCell"
+         android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Cell Connectivity"
+         android:gravity="right" />
+
+    <Switch
+        android:id="@+id/switchMode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Phone Mode" 
+         android:gravity="right"/>
+
+    <Switch
+        android:id="@+id/switchMicrophone"
+         android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Microphone"
+         android:gravity="right" />
+
+    <Switch
+        android:id="@+id/switchNFC"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="NFC" 
+         android:gravity="right"/>
+     <Switch
+        android:id="@+id/switchLocation"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Geo-Location" 
+         android:gravity="right"/> 
+         
+         <Switch
+        android:id="@+id/switchAccelerometer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer" 
+         android:gravity="right"/> 
+         
+         <Switch
+        android:id="@+id/switchMagnetometer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Magnetometer" 
+         android:gravity="right"/>
+         
+         <Switch
+        android:id="@+id/switchGyroscope"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope" 
+         android:gravity="right"/> 
+         
+         <Switch
+        android:id="@+id/switchLinearAcceleration"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Linear Accel." 
+         android:gravity="right"/>
+         
+         <Switch
+        android:id="@+id/switchOrientation"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Orientation" 
+         android:gravity="right"/>
+         
+         <Switch
+        android:id="@+id/switchProximity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Proximity" 
+         android:gravity="right"/>
+         
+         <Switch
+        android:id="@+id/switchPressure"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Pressure" 
+         android:gravity="right"/>
+         
+         <Switch
+        android:id="@+id/switchLight"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Light" 
+         android:gravity="right"/>
+         
+         <Switch
+        android:id="@+id/switchScreen"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Screen State" 
+         android:gravity="right"/>
+         
+         <Switch
+        android:id="@+id/switchMemory"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Memory" 
+         android:gravity="right"/> 
+         
+           <Switch
+        android:id="@+id/switchCPU"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="CPU Load" 
+         android:gravity="right"/>  
+           <Switch
+        android:id="@+id/switchHumidity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Humidity" 
+         android:gravity="right"/>  
+           <Switch
+        android:id="@+id/switchBattery"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Battery" 
+         android:gravity="right"/>    
+            
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout>
+

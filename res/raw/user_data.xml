@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monitor>
+	<activity id="001">
+		<title>Screen on</title>
+		<status>inactive</status>
+		<value>0</value>
+		<power>0</power>
+	</activity>
+</monitor>

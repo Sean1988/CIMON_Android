@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" additionalparam="-bootclasspath /home/darts/android/android-sdk-linux/platforms/android-10/android.jar " author="true" classpath="libs/android-support-v4.jar:/home/darts/android/android-sdk-linux/tools/support/annotations.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="edu.nd.darts.cimon.contentprovider,edu.nd.darts.cimon,edu.nd.darts.cimon.database" source="1.5" sourcepath="gen:src" splitindex="true" use="true" version="true">
+            <link href="file:/home/darts/android/android-sdk-linux/docs/reference"/>
+        </javadoc>
+    </target>
+</project>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monitor>
+	<sensor id="001">
+		<title>Accelerometer</title>
+		<status>inactive</status>
+		<fieldcnt>4</fieldcnt>
+		<value1 field="X" units="@string/units_ms2">0</value1>
+		<value2 field="Y" units="@string/units_ms2">0</value2>
+		<value3 field="Z" units="@string/units_ms2">0</value3>
+		<value4 field="Magnitude" units="@string/units_ms2">0</value4>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="002">
+		<title>Gyroscope</title>
+		<status>inactive</status>
+		<fieldcnt>4</fieldcnt>
+		<value1 field="X" units="@string/units_rads">0</value1>
+		<value2 field="Y" units="@string/units_rads">0</value2>
+		<value3 field="Z" units="@string/units_rads">0</value3>
+		<value4 field="Magnitude" units="@string/units_rads">0</value4>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="003">
+		<title>Magnetometer</title>
+		<status>inactive</status>
+		<fieldcnt>4</fieldcnt>
+		<value1 field="X" units="@string/units_ut">0</value1>
+		<value2 field="Y" units="@string/units_ut">0</value2>
+		<value3 field="Z" units="@string/units_ut">0</value3>
+		<value4 field="Magnitude" units="@string/units_ut">0</value4>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="004">
+		<title>GPS</title>
+		<status>inactive</status>
+		<fieldcnt>3</fieldcnt>
+		<value1 field="latitude" units="@string/units_degrees">0</value1>
+		<value2 field="longitude" units="@string/units_degrees">0</value2>
+		<value3 field="accuracy" units="@string/units_meters">0</value3>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="005">
+		<title>Linear Acceleration</title>
+		<status>inactive</status>
+		<fieldcnt>4</fieldcnt>
+		<value1 field="X" units="@string/units_ms2">0</value1>
+		<value2 field="Y" units="@string/units_ms2">0</value2>
+		<value3 field="Z" units="@string/units_ms2">0</value3>
+		<value4 field="Magnitude" units="@string/units_ms2">0</value4>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="006">
+		<title>Orientation sensor</title>
+		<status>inactive</status>
+		<fieldcnt>3</fieldcnt>
+		<value1 field="Azimuth" units="@string/units_degrees">0</value1>
+		<value2 field="Pitch" units="@string/units_degrees">0</value2>
+		<value3 field="Roll" units="@string/units_degrees">0</value3>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="007">
+		<title>Light sensor</title>
+		<status>inactive</status>
+		<fieldcnt>1</fieldcnt>
+		<value1 field="Light" units="@string/units_lux">0</value1>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="008">
+		<title>Proximity sensor</title>
+		<status>inactive</status>
+		<fieldcnt>1</fieldcnt>
+		<value1 field="Range" units="@string/units_cm">0</value1>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="009">
+		<title>Temperature</title>
+		<status>inactive</status>
+		<fieldcnt>1</fieldcnt>
+		<value1 field="Temp" units="@string/units_celcius">0</value1>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="010">
+		<title>Pressure</title>
+		<status>inactive</status>
+		<fieldcnt>1</fieldcnt>
+		<value1 field="Atmospheric" units="@string/units_hpa">0</value1>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+	<sensor id="011">
+		<title>Humidity</title>
+		<status>inactive</status>
+		<fieldcnt>1</fieldcnt>
+		<value1 field="Humidity" units="@string/units_percent">0</value1>
+		<power>0</power>
+		<frequency>0.0</frequency>
+	</sensor>
+</monitor>

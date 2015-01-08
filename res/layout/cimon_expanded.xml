@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="@drawable/gradient_black" android:padding="1dip">
+
+	<TextView android:id="@+id/title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true" android:text="Title"
+		android:textSize="14dip" android:padding="2dip" android:textStyle="bold"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<ImageView android:id="@+id/info" android:layout_width="40dip"
+		android:layout_height="40dip" android:layout_alignParentRight="true"
+		android:layout_alignTop="@+id/title" android:src="@android:drawable/ic_menu_info_details"
+		android:scaleType="fitCenter" android:padding="4dip" />
+	<TextView android:id="@+id/status" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toLeftOf="@+id/info"
+		android:layout_alignParentTop="true" android:text="inactive"
+		android:textSize="12dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+
+	<TextView android:id="@+id/power" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toLeftOf="@+id/info"
+		android:layout_below="@+id/title" android:text="Power: 0mA"
+		android:textSize="11dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/description" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/title"
+		android:layout_alignLeft="@+id/title" android:layout_toLeftOf="@+id/power"
+		android:text="Description" android:textSize="11dip" android:padding="2dip"
+		android:textStyle="normal" android:typeface="normal"
+		android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/mininterval" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/description"
+		android:layout_alignLeft="@+id/title" android:text="Minimum interval"
+		android:textSize="11dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<ImageView android:id="@+id/collapse" android:layout_width="40dip"
+		android:layout_height="wrap_content" android:layout_alignBottom="@+id/mininterval"
+		android:layout_alignParentRight="true" android:layout_below="@+id/info"
+		android:src="@android:drawable/arrow_up_float" android:scaleType="center" />
+	<TextView android:id="@+id/maxrange" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/mininterval"
+		android:layout_alignLeft="@+id/title" android:text="Maximum range"
+		android:textSize="11dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+	<TextView android:id="@+id/resolution" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/maxrange"
+		android:layout_alignLeft="@+id/title" android:text="Resolution"
+		android:textSize="11dip" android:padding="2dip" android:textStyle="normal"
+		android:typeface="normal" android:textColor="#e4e4e4" />
+
+</RelativeLayout>

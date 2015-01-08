@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monitor>
+	<system id="001">
+		<title>Battery</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Level">0</metric>
+			<metric title="Status">0</metric>
+			<metric title="Plugged status">0</metric>
+			<metric title="Health">0</metric>
+			<metric title="Temperature">0</metric>
+			<metric title="Voltage">0</metric>
+		</field>
+	</system>
+	<system id="002">
+		<title>Memory</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Total memory">0</metric>
+			<metric title="Free memory">0</metric>
+			<metric title="Cached">0</metric>
+			<metric title="Active">0</metric>
+			<metric title="Inactive">0</metric>
+			<metric title="Dirty">0</metric>
+			<metric title="Buffers">0</metric>
+			<metric title="AnonPages">0</metric>
+			<metric title="Swap total">0</metric>
+			<metric title="Swap free">0</metric>
+			<metric title="Swap cached">0</metric>
+		</field>
+	</system>
+	<system id="003">
+		<title>Processor</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Total">0</metric>
+			<metric title="User">0</metric>
+			<metric title="Nice">0</metric>
+			<metric title="System">0</metric>
+			<metric title="Idle">0</metric>
+			<metric title="IOWait">0</metric>
+			<metric title="IRQ">0</metric>
+			<metric title="Soft IRQ">0</metric>
+			<metric title="Context Switches">0</metric>
+		</field>
+	</system>
+	<system id="004">
+		<title>CPU load</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Load - 1 minute">0</metric>
+			<metric title="Load - 5 minute">0</metric>
+			<metric title="Load - 15 minute">0</metric>
+		</field>
+	</system>
+	<system id="005">
+		<title>Network traffic (Bytes)</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Mobile Rx">0</metric>
+			<metric title="Mobile Tx">0</metric>
+			<metric title="Total Rx">0</metric>
+			<metric title="Total Tx">0</metric>
+		</field>
+	</system>
+	<system id="006">
+		<title>Network traffic (packets)</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Mobile Rx">0</metric>
+			<metric title="Mobile Tx">0</metric>
+			<metric title="Total Rx">0</metric>
+			<metric title="Total Tx">0</metric>
+		</field>
+	</system>
+	<system id="007">
+		<title>SDCard acceses</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Reads">0</metric>
+			<metric title="Writes">0</metric>
+			<metric title="Creates">0</metric>
+			<metric title="Deletes">0</metric>
+		</field>
+	</system>
+	<system id="008">
+		<title>Instruction count</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Instructions">0</metric>
+		</field>
+	</system>
+	<system id="009">
+		<title>Connectivity status</title>
+		<status>inactive</status>
+		<value>0</value>
+		<field>
+			<metric title="Connected">0</metric>
+			<metric title="Roaming">0</metric>
+		</field>
+	</system>
+</monitor>

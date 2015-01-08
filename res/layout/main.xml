@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+	<TextView
+		android:layout_height="wrap_content"
+		android:id="@+id/titleText"
+		android:text="@string/hello"
+		android:layout_width="wrap_content" />
+	<TextView
+		android:text="inactive"
+		android:layout_below="@+id/titleText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/memValue"
+		android:layout_toRightOf="@+id/titleText"
+	></TextView>
+	<TextView
+		android:text="MemFree"
+		android:layout_below="@+id/titleText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/memLabel"
+		android:layout_alignLeft="@+id/titleText"
+	></TextView>
+	<ToggleButton
+		android:text="Enable"
+		android:id="@+id/toggleMem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/memLabel"
+		android:layout_alignTop="@+id/memLabel"
+	></ToggleButton>
+	
+	<TextView
+		android:text="inactive"
+		android:layout_below="@+id/toggleMem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/cpuValue"
+		android:layout_toRightOf="@+id/titleText"
+	></TextView>
+	<TextView
+		android:text="CpuLoad"
+		android:layout_below="@+id/toggleMem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/cpuLabel"
+		android:layout_alignLeft="@+id/titleText"
+	></TextView>
+	<ToggleButton
+		android:text="Enable"
+		android:id="@+id/toggleCpu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/cpuLabel"
+		android:layout_alignTop="@+id/cpuLabel"
+	></ToggleButton>
+	
+	<TextView
+		android:text="inactive"
+		android:layout_below="@+id/toggleCpu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/eventValue"
+		android:layout_toRightOf="@+id/titleText"
+	></TextView>
+	<TextView
+		android:text="load>1.25"
+		android:layout_below="@+id/toggleCpu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/eventLabel"
+		android:layout_alignLeft="@+id/titleText"
+	></TextView>
+	<ToggleButton
+		android:text="Enable"
+		android:id="@+id/toggleEvent"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/eventLabel"
+		android:layout_alignTop="@+id/eventLabel"
+	></ToggleButton>
+</RelativeLayout>

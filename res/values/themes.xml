@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Overwrite the ToggleButton style -->
+	<style name="Widget.SeekBar" parent="android:Widget">
+		<!-- <item name="android:background">@drawable/btn_toggle_bg</item> -->
+		<!--  <item name="android:thumb">@android:drawable/seek_thumb</item> -->
+		<item name="android:indeterminateOnly">false</item>
+		<item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+		<item name="android:indeterminateDrawable">@android:drawable/progress_horizontal</item>
+		<item name="android:minHeight">10dip</item>
+		<item name="android:maxHeight">10dip</item>
+		<item name="android:thumb">@drawable/thumb_drawable</item>
+		<item name="android:thumbOffset">1dip</item>
+		<item name="android:focusable">true</item>
+	</style>
+
+	<style name="NDroidTheme" parent="@android:Theme.Black">
+		<!-- Tell Android to use a custom style when creating a ToggleButton -->
+		<item name="android:seekBarStyle">@style/Widget.SeekBar</item>
+		<!-- Perhaps more theme items here...? -->
+	</style>
+</resources>
